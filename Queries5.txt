@@ -1,0 +1,69 @@
+
+5 ?- consult(['c:/Users/alshb/Downloads/lap5.pl']).
+true.
+
+5 ?- father(homer, bart).
+true.
+
+6 ?- father(X, lisa).
+X = homer .
+
+7 ?- mother(marge, maggie).
+true.
+
+8 ?- mother(X, homer).
+X = mona.
+
+9 ?- son(bart, homer).
+true.
+
+10 ?- son(X, abraham).
+X = herb .
+
+11 ?- daughter(lisa, marge).
+true.
+
+12 ?- daughter(X, selma).
+X = ling.
+
+13 ?- brother(bart, lisa).
+true .
+
+14 ?- brother(herb, homer).
+true.
+
+15 ?- sister(patty, marge).
+true .
+
+16 ?- sister(X, bart).
+X = lisa .
+
+17 ?- grandfather(abraham, bart).
+true.
+
+18 ?- grandfather(clancy, ling).
+true.
+
+19 ?- aunt(patty, bart).
+true .
+
+20 ?- aunt(X, ling).
+X = marge .
+
+21 ?- uncle(herb, lisa).
+true.
+
+22 ?- uncle(X, bart).
+X = herb .
+
+23 ?- cousin(bart, ling).
+true .
+
+24 ?- cousin(ling, X).
+X = bart .
+
+25 ?- ancestor(abraham, maggie).
+true .
+
+26 ?- ancestor(clancy, X).
+X = marge 
